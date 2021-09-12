@@ -33,14 +33,14 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>┗┓ Hi {message.from_user.first_name} My Name is [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ┏┛\n
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti:
+Grup Sesli Sohbette Şarkıları Kolay Şekilde Çalabilen Bot Müzik Grubuyum
+Aşağıdaki Gibi Birçok Pratik Özelliğe Sahiptim:
 ┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┣• EllyCarl Music.
+┣• Şarkı indirme.
+┣• Video İzletme.
 ┗━━━━━━━━━━━━━━
-Ketik » /help « Untuk Melihat Daftar Perintah!
+Ketik » /help « komut listemi öğrenmek için tıklayın!
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -52,7 +52,7 @@ Ketik » /help « Untuk Melihat Daftar Perintah!
                          "🤖 Assistant", url=f"https://t.me/{ASSISTANT_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "🛠 Repo", url="https://github.com/tofikdn/TDMusicBot"
+                        "🛠 Repo", url="https://t.me/kizilsancakbilgi"
                     )
                 ]
             ]
@@ -72,10 +72,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Repo", url="https://github.com/tofikdn/TDMusicBot"
+                        "🛠 Repo", url="https://t.me/kizilsancakbilgi"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/tedesupport"
+                        "💬 Group", url="https://t.me/smailesi"
                     )
                 ]
             ]
@@ -107,10 +107,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/tedesupport"
+                        "Group", url="https://t.me/smailesi"
                     ),
                     InlineKeyboardButton(
-                        "Tede", url="https://t.me/tdtapibot"
+                        "Kanal", url="https://t.me/kizilsancakbilgi"
                     )
                 ]
             ]
